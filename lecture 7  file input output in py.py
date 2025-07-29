@@ -1,0 +1,5 @@
+f = open ("demo.txt", "w+")
+f.write("abc")
+f.seek(0)
+print(f.read())
+f.close() 
